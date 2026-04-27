@@ -1,0 +1,120 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="assets/css/style.css">
+    <link rel="shortcut icon" href="assets/icons/logo.ico" type="image/x-icon">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Rock+Salt&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css">
+    <title>Portal</title>
+</head>
+<body>
+    <header id="hero">
+        <!-- Don't Forget the bg-img in here Use: img-5 -->
+        <div class="hero-bg"></div>
+        <nav class="navbar" aria-label="Navegación principal">
+            <img src="assets/icons/logo.svg.png" alt="Portal Logo">
+            <button class="hamburger" id="hamburger" aria-label="Open Menu" aria-expanded="false" aria-controls="nav-menu">
+                <span class="hamburger-line"></span>
+                <span class="hamburger-line"></span>
+                <span class="hamburger-line"></span>
+            </button>
+            <ul id="nav-menu" role="menubar">
+                <li role="none"><a href="#hero" role="menuitem">Events</a></li>
+                <li role="none"><a href="#about" role="menuitem">About</a></li>
+                <li role="none"><a href="#music" role="menuitem">Music</a></li>
+                <li role="none"><a href="#media" role="menuitem">Media</a></li>
+                <li role="none"><a href="#contact" role="menuitem">Contact</a></li>
+            </ul>
+        </nav>
+        <div class="hero">
+            <h1>
+                Bless your ears-portal with some rock!
+            </h1>
+            <div class="hero-cta">
+                <a href="#events" class="btn-hero">View all events</a>
+            </div>
+        </div>
+    </header>
+    <section class="events" id="events">
+        <table class="events_table">
+            <h2>
+                Upcoming Events
+            </h2>
+            <thead>
+                <tr>
+                    <th>Event</th>
+                    <th>City</th>
+                    <th>Date</th>
+                    <th>Tickets</th>
+                </tr>
+            </thead>
+            <tbody>
+                <tr>
+                    <td>Rock Fest</td>
+                    <td>Bogotá</td>
+                    <td>10/05/2026</td>
+                    <td><a href="#" target="_blank">BUY NOW!</a></td>
+                </tr>
+                <tr>
+                    <td>Live Show</td>
+                    <td>Medellín</td>
+                    <td>25/05/2026</td>
+                    <td><a href="#" target="_blank">BUY NOW!</a></td>
+                </tr>
+            </tbody>
+        </table>
+    </section>
+    <section class="about" id="about">
+        <div class="about-img"><img src="assets/img/img-2.jpg" alt="Band members' photo"></div>
+        <div class="about-text">
+            <h2>About the Band</h2>
+            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Aspernatur, vel nulla! Illo veniam modi officia natus nemo, sint dolorem nam, illum dolorum mollitia, doloribus numquam. Doloremque quisquam nesciunt in autem.</p>
+            <ul>
+                <h2>Members!</h2>
+                <li>Roberto Musso</li>
+                <li>Toby "Radiation" Fox</li>
+                <li>Scott Pilgrim</li>
+            </ul>
+        </div>
+    </section>
+    <section class="multimedia" id="multimedia">
+        <h2>Multimedia</h2>
+        <div class="multimedia_content">
+            <div class="multimedia_imgs">
+                <img src="assets/img/img-1.jpg" alt="">
+                <img src="assets/img/img-3.jpg" alt="">
+                <img src="assets/img/img-4.jpg" alt="">
+                <img src="assets/img/img-6.jpg" alt="">
+                <img src="assets/img/img-7.jpg" alt="">
+                <img src="assets/img/img-8.jpg" alt="">
+                <img src="assets/img/img-9.jpg" alt="">
+                <img src="assets/img/img-10.jpg" alt="">
+            </div>
+            <div class="multimedia_logo">
+                <img src="assets/icons/logo.svg.png" alt="">
+            </div>
+        </div>
+    </section>
+    <hr>
+    <footer>
+        <div class="footer-top">
+            <div class="footer-social">
+                <h2>Follow Us!</h2>
+                <div class="social-icons">
+                    <a href="#" aria-label="Instagram"><i class="fa-brands fa-instagram"></i></a>
+                    <a href="#" aria-label="Facebook"><i class="fa-brands fa-facebook"></i></a>
+                    <a href="#" aria-label="TikTok"><i class="fa-brands fa-tiktok"></i></a>
+                </div>
+            </div>
+        </div>
+        <div class="footer-bottom">
+            <small>&copy; Copyright - 2026 Portal - By: <a href="https://github.com/nicholas-delarosa">Nicholas De la Rosa</a></small>
+        </div>
+    </footer>
+    <script src="assets/js/script.js"></script>
+</body>
+</html>
